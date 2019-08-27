@@ -54,7 +54,7 @@ public class GitHubJobsAPI {
             }
             reader.close();
 
-            // 把内容再转成JSONArray
+            // 把内容再转成JSONArray hahaha
             JSONArray obj = new JSONArray(response.toString());
 
             return getJobsList(obj);
